@@ -11,35 +11,56 @@
               font-size: 16px;
           }
 
-/* Clear floats after image containers */
+
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
 
+#colors{
+    background-color:#00FFFF;
+}
+
+#colors2{
+     
+    background-color:#FF69B4; 
+}
+
+#colors3{
+    background-color:#98FB98;
+}
+
+#colors4{
+    background-color:#FAFAD2;
+}
+#colors5{
+    background-color:#FFD700;
+}
+
+
+
     </style>
-    <body style="border:0.09cm solid; background-color: whitesmoke;">
+    <body style="border:0.09cm solid; background: linear-gradient(-45deg, #EE7752, #E73C7E,#23A605, #2305AB); animation:change 5s ease-in-out infinite; position:relative;">
 
         <div style="padding-top: 1%;"></div>
 
         <div id="main content" style="text-align: center;">
             
-            <h1><b>CS 4331 Project 2</b></h1>
+            <h1><b> Project 2</b></h1>
             <h5>Pranjal Ghimire</h5>
             <hr style="margin-left:20%; margin-right:20%;">
         
-            <div id="Part C">
+            <div id="par 1">
                 
-                <h3><b>Answers for C: </b></h3>
-                <h6>Car dashboard design study</h6>
+                <h3><b>Part 1</b></h3>
 
-                <div class="row" style="margin: 1%; padding: 2%;">
+                <div class="row" style="margin: 1%; padding: 2%;" id="colors">
                 
                         <div class="column" style="float: left; width: 2%;">&nbsp;</div>
 
                         <div class="column" style="float: left; width: 15%;">
-                            <img src="assets/1.jpg", width="500px">
+                            <img src="assets/audi.jpg", width="500px">
                         </div>
                         
                         <div class="column" style="float: left; width: 20%;">&nbsp;</div>
@@ -50,12 +71,12 @@
                                     <h6> Pros - </h6>
                                     <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
                                         <li>
-                                            Well seperated functionality - <br>
-                                            The fuel indicator, speedometer and revs/min meter are in a seperate segregated circles. 
+                                            Good usage of tabs  - <br>
+                                             There are tabs at the top that tansfers to different data modes.
                                         </li>
                                         <li>
-                                            Good use of bottom LED display - <br>
-                                            The LED display has the units and the value of what is being measured in each circle.    
+                                            Slider present in the main screen - <br>
+                                               Provides easy interface to view more information by sliding the taskbar.
                                         </li>
                                     
                                     </ul> 
@@ -63,13 +84,12 @@
                                     <h6> Cons - </h6>
                                     <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
                                         <li>
-                                            Ambiguious functionality of the bottom two buttons - <br>
-                                            The symbols on the bottom two buttons as well as their positions creates ambiguity in understanding their purpose.
+                                            Space use of tachometer and speedometer - <br>
+                                            The tachometer and speedometer use up too much space.
                                         </li>
                                         <li>
-                                            Warning symbol arrangement - <br>
-                                            The warning symbols are arranged arbitrarily and hard are to read.    
-                                        </li>
+                                            Less space for emergency signals- <br>
+                                            The emergency signals are crunched together at the top right hand side.
                                     
                                     </ul> 
                                 </p>
@@ -80,12 +100,12 @@
 
                 </div>
                 
-                <div class="row" style="margin: 1%; padding: 2%;">
+                <div class="row" style="margin: 1%; padding: 2%;" id="colors2">
                     
                         <div class="column" style="float: left; width: 2%;">&nbsp;</div>
 
                         <div class="column" style="float: left; width: 15%;">
-                            <img src="assets/2.jpg", width="550px">
+                            <img src="assets/automobile.jpg", width="550px">
                         </div>
                         
                         <div class="column" style="float: left; width: 20%;">&nbsp;</div>
@@ -96,12 +116,12 @@
                                     <h6> Pros - </h6>
                                     <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
                                         <li>
-                                            Well arranged warning symbols - <br>
-                                            The warning symbols are arranged near their respective machine readings to better indicate what the symbol is connected to. 
+                                           Well seperated functionalities - <br>
+                                            The tachometer, speedometer and warning symbols are all seperated in different locations. 
                                         </li>
                                         <li>
-                                            Properly marked and easily visible speedometer and tachometer - <br>
-                                            Both the meters are properly visible and have theie respective units displayed. The tachometer also has color co-ordination to explain the danger of overspeeding. 
+                                            Lights used to indicate use - <br>
+                                            There are lights that turn on or off depending on the used materials and emegencies.
                                         </li>
                                     
                                     </ul> 
@@ -109,12 +129,13 @@
                                     <h6> Cons - </h6>
                                     <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
                                         <li>
-                                            Too much information in too little space - <br>
-                                            There is some information overload with so many symbols that some of them become redundant like the gas symbol repeated near the gas symbol.
+                                            Warning signals jumbled together - <br>
+                                           The warning symbols are all seperated in two different functionalities are are all jumbled up.
                                         </li>
                                         <li>
-                                            Too many reading meters - <br>
-                                            There is a seperate meter for the water level, water temperature, engine temperature, Gas. All of these could have just been LED number notations.   
+                                            Congested data with seperate functionalities - <br>
+                                            All unrelated information are all together in different seperations. In case of that, there should be
+                                            seperations of two more small functionalities.   
                                         </li>
                                     
                                     </ul> 
@@ -126,12 +147,12 @@
 
                 </div>
 
-                <div class="row" style="margin: 1%; padding: 2%;">
+                <div class="row" style="margin: 1%; padding: 2%;" id="colors3">
                         
                         <div class="column" style="float: left; width: 2%;">&nbsp;</div>
 
                         <div class="column" style="float: left; width: 15%;">
-                            <img src="assets/3.jpg", width="500px">
+                            <img src="assets/car2.jpg", width="500px">
                         </div>
                         
                         <div class="column" style="float: left; width: 20%;">&nbsp;</div>
@@ -139,14 +160,28 @@
                         <div class="column" style="float: left; width: 60%;">
                             <div>
                                 <p>
+
+                                    <h6> Pros - </h6>
+                                    <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
+                                        <li>
+                                           Seperation of different functionalitites - <br>
+                                            Space and seperation is well done between the edges.
+                                        </li>
+                                        <li>
+                                           Related emergency signals - <br>
+                                            Each seperation has its own emergency signals that are related based on the division.
+                                        </li>
+                                    
+                                    </ul> 
+
                                     <h6> Cons - </h6>
                                     <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
                                         <li>
-                                            Confusing placement of information - <br>
-                                            The gas symbol is confusing to read, the 34 mi to E is not understood.
+                                            Least needed information in center - <br>
+                                            The speedometer should be the main point of focus.
                                         </li>
-                                        <li>Space not optimized - <br>
-                                            Not much important information has been given too much importance. Which leaves very less space for the warning symbols. <br>                
+                                        <li>Spacing not well used - <br>
+                                           There is too much information on the dashboard. <br>                
                                         </li>
                                     
                                     </ul> 
@@ -158,12 +193,12 @@
 
                 </div>
 
-                <div class="row" style="margin: 1%; padding: 2%;">
+                <div class="row" style="margin: 1%; padding: 2%;" id="colors4">
                         
                     <div class="column" style="float: left; width: 2%;">&nbsp;</div>
 
                     <div class="column" style="float: left; width: 15%;">
-                        <img src="assets/4.jpg", width="500px">
+                        <img src="assets/bmw.jpg", width="500px">
                     </div>
                     
                     <div class="column" style="float: left; width: 20%;">&nbsp;</div>
@@ -171,14 +206,28 @@
                     <div class="column" style="float: left; width: 60%;">
                         <div>
                             <p>
+                                    <h6> Pros - </h6>
+                                    <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
+                                        <li>
+                                           Clean dashboard - <br>
+                                            The dashboard has removed unneccesary information.
+                                        </li>
+                                        <li>
+                                           Descriptive dashboard  - <br>
+                                            Each division has a descriptive data in divisions.
+                                        </li>
+                                    
+                                    </ul> 
+
+
                                 <h6> Cons - </h6>
                                 <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
                                     <li>
-                                        Crowded information- <br>
-                                        The information is so crowded and unreadable that the warning symbols are outside the main dashboard screen. 
+                                        No space for emergency signals- <br>
+                                        The dashboard did not utilize all resources that the user may need. 
                                     </li>
-                                    <li>Redundant information - <br>
-                                        Considering that there is a shortage of space, information such as the date and time can be avoided . <br>                
+                                    <li>Unused space and weird use of resources- <br>
+                                        More than 15 percent of space of the dashboard is unused and some things are placed in wierd locations <br>                
                                     </li>
                                 </ul> 
                             </p>
@@ -189,27 +238,37 @@
 
                 </div>
 
-                <div class="row" style="margin: 1%; padding: 2%;">
+                <div class="row" style="margin: 1%; padding: 2%;" id="colors5">
                                 
                         <div class="column" style="float: left; width: 2%;">&nbsp;</div>
 
                         <div class="column" style="float: left; width: 15%;">
-                            <img src="assets/5.jpeg", width="500px">
+                            <img src="assets/car1.jpg", width="500px">
                         </div>
                         
                         <div class="column" style="float: left; width: 20%;">&nbsp;</div>
 
                         <div class="column" style="float: left; width: 60%;">
                             <div>
+
+                                    <h6> Pros - </h6>
+                                    <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
+                                        <li>
+                                           Digitalized data - <br>
+                                            The dashboard has digitalized data including the speed limit which is redundant.
+                                        </li>
+    
+                                    
+                                    </ul> 
                                 <h6> Cons - </h6>
                                 <ul style="text-align:left; margin-left: 15%; margin-right: 15%;">
                                     <li>
-                                        Inadequate information- <br>
-                                        The dashboard only provides the information of the speed of the car and the fuel, does not display any waening signs. 
+                                        Unneccesary information- <br>
+                                        Used of PRND and left right signals are taking up too much space. 
                                     </li>
                                     <li>
-                                        Tachometer design- <br>
-                                        The tachometer is very hard to spot and understand, without the values.
+                                        Less functionalities- <br>
+                                        The digital data does not provide all the information for the user.
                                     </li>
                                 </ul>
                             </div>
@@ -225,8 +284,70 @@
 
             <hr>
 
-            <div>
+            
+            
+        <div>
+        
+        <h3><b>Part 2</b></h3>
 
+                <ul  style="text-align:left; margin-left: 15%; margin-right: 15%; background:linear-gradient(-45deg, #EE7752, #E73C7E,#23A605);"  >
+                    <li><b>My most common features and other more rare uses of a car dashboards</b></li>
+                    <p>
+                        <h5><u>Most Common features - </u> <br> 
+                        <ul> 
+                            <li> </li>
+                            <li>   </li>
+                            <li>  </li>
+                            <li>Speedometer </li>
+                            <li>  </li>
+                            <li>  </li>                             
+                        </ul>
+
+                        <h5> <u>Most rare uses –</u> <br>
+                        <ul> 
+                              
+                            <li>Revs/min of the car.</li>
+                            <li>Warning symbols (engine, tire pressure etc.)</li>
+                            <li>Current time.</li>
+                            <li>Current temperature of the car/ outside temperature.</li>
+                                                       
+                        </ul>
+
+                    </p>
+
+                    <li><b>List the controls that the user interacts with the car dashboards.</b></li>
+                    <p>     
+                        <ul>
+                            <li>Acceleration, Brakes – Interacts with speedometer.</li>
+                            <li>  Gear – Interacts with current drive mode/gear number.</li>
+                            <li>  Indicator control – Turns on the indicator display symbol (left or right).</li>
+                            <li>  Parking light button – Toggles parking lights.</li>
+                            <li>   Windshield wipers toggle and spray fluid – toggles wipers or sprays fluid over windshield.</li>
+                            <li>   Headlight, taillight, fog light knob – Toggles headlight, taillight and fog-light (high beam).</li>
+                            <li>   Open/close door – Toggles the door open warning symbol.</li>
+                            <li>  Seat belt on/off – Toggles the seatbelt warning symbol.</li>
+                                
+                        </ul>
+                    </p>
+
+                    <li><b>What are some common mistakes you can make with this current designs?</b></li>
+                    <p>
+                        <ul><li>Tachometer and speedometer not properly placed. Warning lights/symbols are arbitrarily placed and ambiguous. 
+                                The measurement symbols are not visible or difficult to read. 
+                                The fuel reading is difficult to understand. 
+                                Lack of information or information overload on the dashboard are some common 
+                                mistakes you can make with these current designs.
+                        </li></ul>
+                    </p>
+
+                    <li><b>Low fidelity prototype</b></li><br>
+                    <img src="assets\Dashboard.jpeg" alt="Low fidelity prototype" style="height: 400px; width: 550px; border: solid;"/>
+                    
+                    <br><br><li><b>Working Gif</b></li> <br>
+                    <img src="assets\car_dashboard.gif" alt="Low fidelity prototype" style=" border: solid;"/>
+                    
+
+                </ul>
 
 
 
